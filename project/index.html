@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growthline Partners | Business Credit Stacking Solutions</title>
+<link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #0061ff 0%, #60efff 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #0061ff, #60efff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16 md:h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                            <span class="text-xl sm:text-2xl font-bold gradient-text">Growthline Partners</span>
+</div>
+                </div>
+                <div class="hidden lg:flex items-center space-x-4 xl:space-x-8">
+                    <a href="index.html" class="px-3 py-2 rounded-md text-sm sm:text-base font-medium text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="about.html" class="px-3 py-2 rounded-md text-sm sm:text-base font-medium text-gray-700 hover:text-blue-600 transition">About Us</a>
+                    <a href="process.html" class="px-3 py-2 rounded-md text-sm sm:text-base font-medium text-gray-700 hover:text-blue-600 transition">Process</a>
+                    <a href="contact.html" class="px-3 py-2 rounded-md text-sm sm:text-base font-medium text-gray-700 hover:text-blue-600 transition">Contact Us</a>
+                    <button id="applyNowButton" class="bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-6 py-2 rounded-md text-sm sm:text-base font-medium transition duration-300 transform hover:scale-105">
+                        Apply Now
+                    </button>
+</div>
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-button" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600">
+                        <i data-feather="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden lg:hidden absolute top-16 md:top-20 inset-x-0 bg-white shadow-lg z-50">
+                <div class="px-4 py-3 space-y-2">
+                    <a href="index.html" class="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Home</a>
+                    <a href="about.html" class="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About Us</a>
+                    <a href="process.html" class="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Process</a>
+                    <a href="contact.html" class="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Contact Us</a>
+                    <button onclick="openFundingModal()" class="block w-full text-center px-4 py-3 rounded-lg text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
+                        Apply Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- Hero Section -->
+    <section class="gradient-bg text-white relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-black opacity-10"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-cyan-400/20"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-36 relative z-10">
+            <div class="md:flex items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 animate__animated animate__fadeInDown">
+                        <span>Start, Establish & Scale</span> Your Business with <span class="text-green-300">$50K-$250K+</span> in Credit
+</h1>
+                    <p class="text-xl lg:text-2xl mb-8 opacity-90 animate__animated animate__fadeIn animate__delay-1s">
+                        <span class="font-semibold">0% interest for 12-18 months</span> on strategically stacked credit lines to fuel your business growth.
+                    </p>
+            <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
+                        <button onclick="openFundingModal()" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition duration-300 transform hover:scale-105 hover:shadow-xl animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="flex items-center">
+                                Get Funded Today
+                                <i data-feather="arrow-right" class="ml-2 h-5 w-5"></i>
+                            </div>
+                        </button>
+<a href="process.html" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg font-bold text-lg transition duration-300 transform hover:scale-105 hover:shadow-xl animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="flex items-center">
+                                How It Works
+                                <i data-feather="arrow-right" class="ml-2 h-5 w-5"></i>
+                            </div>
+                        </a>
+</div>
+                </div>
+                <div class="md:w-1/2 flex justify-center animate__animated animate__fadeIn animate__delay-1s">
+                    <div class="relative">
+                    <img src="https://media.istockphoto.com/id/1203763961/photo/stacked-credit-cards.jpg?s=612x612&w=0&k=20&c=bEEGZwG120WKDClhmltyAtP0kPMzNir49P4JO3pcies=" alt="Business credit stacking" class="rounded-xl shadow-2xl w-full max-w-md transform rotate-1 hover:rotate-0 transition duration-500">
+<div class="absolute -bottom-5 -right-5 bg-white text-blue-600 p-4 rounded-lg shadow-lg">
+                            <div class="text-2xl font-bold">$100K+</div>
+                            <div class="text-sm">Average Credit</div>
+</div>
+</div>
+            </div>
+        </div>
+    </section>
+    <!-- Startups Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Funding Solutions</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    <strong>From formation to funding</strong> - we help entrepreneurs launch properly and access capital to grow.
+                </p>
+</div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="zap" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Startup Launchpad</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>Turn your idea into reality</strong> with $25K-$100K in funding within 30 days, even with no business history.
+                    </p>
+</div>
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="trending-up" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Business Growth Accelerator</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>Scale your business exponentially</strong> with additional capital, plus improving your business and peronal credit score.
+                    </p>
+</div>
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="dollar-sign" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Growth Fuel</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>Scale faster</strong> with vendor credit, inventory financing, and revolving business credit lines.
+                    </p>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+<section class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="mb-16 bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Requirements For Business Credit Stacking</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 justify-center max-w-lg mx-auto">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-2 rounded-full mr-3">
+                                    <i data-feather="check-circle" class="h-5 w-5 text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Credit Score</h4>
+                                    <p class="text-gray-600 text-sm">680+ personal credit score</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-2 rounded-full mr-3">
+                                    <i data-feather="check-circle" class="h-5 w-5 text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Business Structure</h4>
+                                    <p class="text-gray-600 text-sm">LLC, Corporation, or LLP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition duration-300">
+                    <div class="text-5xl font-bold gradient-text mb-4">$250M+</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Funded</h3>
+                    <p class="text-gray-600">We've helped businesses secure over $250 million in combined credit facilities.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition duration-300">
+                    <div class="text-5xl font-bold gradient-text mb-4">1K+</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Businesses</h3>
+                    <p class="text-gray-600">Trusted by over 1,000 businesses to optimize their credit stacking strategy.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition duration-300">
+                    <div class="text-5xl font-bold gradient-text mb-4">24h</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Approval</h3>
+                    <p class="text-gray-600">Fast approvals with funding in as little as 24 hours after approval.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Industries Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">We Work With All Industries</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our credit stacking solutions are tailored to meet the unique needs of businesses across all sectors.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="shopping-cart" class="h-10 w-10 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Retail</h3>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="truck" class="h-10 w-10 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Transportation</h3>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="home" class="h-10 w-10 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Real Estate</h3>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="code" class="h-10 w-10 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Technology</h3>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="scissors" class="h-10 w-10 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Beauty & Wellness</h3>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="tool" class="h-10 w-10 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Construction</h3>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="heart" class="h-10 w-10 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Healthcare</h3>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="coffee" class="h-10 w-10 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Hospitality</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50" id="benefits">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Key Benefits of Business Credit Stacking</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Why thousands of businesses choose credit stacking to fuel their growth
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="shield" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Asset Protection</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>Separate business and personal credit</strong> to protect your personal assets and credit score.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="dollar-sign" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Lower Cost Capital</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>0% interest financing</strong> for 12-18 months compared to high-interest loans and MCAs.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="clock" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Faster Funding</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>Access capital in days</strong> rather than weeks or months with traditional loans.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="credit-card" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Flexible Credit</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>Revolving credit lines</strong> that grow with your business needs.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="trending-up" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Credit Building</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>Improve your business credit</strong> profile with multiple positive tradelines.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="zap" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Quick Approval</h3>
+                    <p class="text-gray-600 text-center">
+                        <strong>Minimal documentation</strong> required compared to traditional financing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="py-20 gradient-bg">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Credit Stacking Solutions</h2>
+<p class="text-xl text-gray-900 max-w-3xl mx-auto">
+                    Combine multiple financing options to create the perfect funding stack for your business needs.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" >
+<div class="bg-white rounded-xl shadow-md overflow-hidden card-hover transition duration-300">
+                    <div class="h-48 bg-black flex items-center justify-center" style="background-image: url('https://cdn.britannica.com/54/237654-050-9DD5E536/Macro-image-of-all-major-credit-card-companies.jpg'); background-size: cover; background-position: center;">
+</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Credit Stacking</h3>
+                        <p class="text-gray-600 mb-4">
+                            Strategically combine multiple business credit lines to maximize your funding potential while optimizing terms.
+                        </p>
+<a href="#" class="text-blue-600 font-medium inline-flex items-center">
+                            Learn More <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover transition duration-300">
+                    <div class="h-48 bg-black flex items-center justify-center" style="background-image: url('https://www.shutterstock.com/image-vector/bank-icon-sign-symbol-260nw-1235516383.jpg'); background-size: cover; background-position: center;">
+</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Trade Credit Lines</h3>
+                        <p class="text-gray-600 mb-4">
+                            Establish net-30 accounts with vendors to build business credit while preserving cash flow.
+                        </p>
+<a href="#" class="text-blue-600 font-medium inline-flex items-center">
+                            Learn More <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover transition duration-300">
+                    <div class="h-48 bg-black flex items-center justify-center" style="background-image: url('https://www.kissht.com/_next/image?url=https%3A%2F%2Fkissht-strapi-cms-s3-images-bucket.s3.ap-south-1.amazonaws.com%2FCredit_Score_Range_adc450299c.jpg&w=3840&q=75'); background-size: cover; background-position: center;">
+</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Credit Optimization</h3>
+                        <p class="text-gray-600 mb-4">
+                            Our experts help structure your credit profile to qualify for the best terms and maximum limits.
+                        </p>
+<a href="#" class="text-blue-600 font-medium inline-flex items-center">
+                            Learn More <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Comparison Section -->
+    <section class="py-20 bg-white" id="testimonials-grid">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" >
+                <h2 class="text-3xl md:text-4xl fondt-bold text-gray-900 mb-4">Why Credit Stacking Beats Traditional Financing</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    See how credit stacking compares to traditional funding options
+                </p>
+            </div>
+            <div class="bg-gray-50 rounded-xl p-8">
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead>
+                            <tr class="text-left border-b-2 border-gray-200">
+                                <th class="pb-4 font-bold text-gray-900"></th>
+                                <th class="pb-4 font-bold text-gray-900">Business Credit Stacking</th>
+                                <th class="pb-4 font-bold text-gray-900 px-4">Merchant cash advance</th>
+                                <th class="pb-4 font-bold text-gray-900 px-4">Traditional Loans</th>
+</tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Interest Rates</td>
+                                <td class="py-4 text-green-600 font-medium">0%</td>
+                                <td class="py-4 text-red-600 font-medium px-4">20-250%</td>
+                                <td class="py-4 text-yellow-600 font-medium px-4">7-30%</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Funding Speed</td>
+                                <td class="py-4">1-5 days</td>
+                                <td class="py-4 px-4">24-72 hours</td>
+                                <td class="py-4 px-4">2-8 weeks</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Personal Guarantee</td>
+                                <td class="py-4">Not Required</td>
+                                <td class="py-4 px-4">Required</td>
+                                <td class="py-4 px-4">Required</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Collateral</td>
+                                <td class="py-4">Not Required</td>
+                                <td class="py-4 px-4">Not Required</td>
+                                <td class="py-4 px-4">Often Required</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Credit Impact</td>
+                                <td class="py-4">Builds Business Credit</td>
+                                <td class="py-4 px-4">Hurts Credit</td>
+                                <td class="py-4 px-4">Hard Inquiry</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Payment Flexibility</td>
+                                <td class="py-4">Revolving Credit</td>
+                                <td class="py-4 px-4">Daily Payments</td>
+                                <td class="py-4 px-4">Fixed Monthly</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Funding Limits</td>
+                                <td class="py-4">$50K-$500K+</td>
+                                <td class="py-4 px-4">$5K-$250K</td>
+                                <td class="py-4 px-4">$10K-$1M+</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">No Hidden Fees</td>
+                                <td class="py-4 text-green-600 font-medium">Yes</td>
+                                <td class="py-4 text-red-600 font-medium px-4">No</td>
+                                <td class="py-4 text-yellow-600 font-medium px-4">Sometimes</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Credit Utilization</td>
+                                <td class="py-4 text-green-600 font-medium">Improves</td>
+                                <td class="py-4 text-red-600 font-medium px-4">Harms</td>
+                                <td class="py-4 text-yellow-600 font-medium px-4">Varies</td>
+</tr>
+                            <tr>
+                                <td class="py-4 font-semibold text-gray-900">Renewable Credit</td>
+                                <td class="py-4 text-green-600 font-medium">Yes</td>
+                                <td class="py-4 text-red-600 font-medium px-4">No</td>
+                                <td class="py-4 text-yellow-600 font-medium px-4">Sometimes</td>
+</tr>
+</tbody>
+                    </table>
+                </div>
+                <div class="mt-12 bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Key Advantages of Credit Stacking</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i data-feather="check" class="h-5 w-5 text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Lower Cost of Capital</h4>
+                                <p class="text-gray-600">Avoid predatory rates of MCAs while accessing funds faster than traditional loans.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i data-feather="check" class="h-5 w-5 text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Asset Protection</h4>
+                                <p class="text-gray-600">No personal guarantees means your personal assets stay protected.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i data-feather="check" class="h-5 w-5 text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Flexible Usage</h4>
+                                <p class="text-gray-600">Revolving credit lines give you ongoing access to capital as needed.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i data-feather="check" class="h-5 w-5 text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Credit Building</h4>
+                                <p class="text-gray-600">Strategic stacking improves your business credit profile over time with multiple positive tradelines.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i data-feather="check" class="h-5 w-5 text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">No Prepayment Penalties</h4>
+                                <p class="text-gray-600">Pay off balances early without any fees or penalties.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i data-feather="check" class="h-5 w-5 text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Rewards & Perks</h4>
+                                <p class="text-gray-600">Many stacked credit products come with valuable rewards programs.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i data-feather="check" class="h-5 w-5 text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Credit Limit Increases</h4>
+                                <p class="text-gray-600">Automatic limit increases as you demonstrate responsible use.</p>
+                            </div>
+                        </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section -->  
+    <section id="faq">
+<section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Get answers to the most common questions about credit stacking.
+                </p>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
+                    <div class="p-6 flex justify-between items-center cursor-pointer">
+                        <h3 class="text-xl font-semibold text-gray-900">What is credit stacking?</h3>
+                        <i data-feather="chevron-down" class="text-blue-600"></i>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 hidden">
+                            <p class="text-gray-600">
+                            <strong>Credit stacking is your launch strategy</strong> - combining multiple business credit accounts to maximize funding while building your business properly from day one. We help with formation, EIN, business banking, and credit - everything needed to start strong.
+                        </p>
+</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
+                    <div class="p-6 flex justify-between items-center cursor-pointer">
+                        <h3 class="text-xl font-semibold text-gray-900">How long does it take to build a credit stack?</h3>
+                        <i data-feather="chevron-down" class="text-blue-600"></i>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 hidden">
+                        <p class="text-gray-600">
+                            Most businesses can establish $50,000-$100,000 in credit lines within 30-60 days. Larger credit stacks ($250,000+) typically take 90-120 days as we strategically build your credit profile to qualify for higher limits.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
+                    <div class="p-6 flex justify-between items-center cursor-pointer">
+                        <h3 class="text-xl font-semibold text-gray-900">Do I need personal credit for business credit stacking?</h3>
+                        <i data-feather="chevron-down" class="text-blue-600"></i>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 hidden">
+                        <p class="text-gray-600">
+                            No, a key benefit of business credit stacking is establishing credit that's separate from your personal credit. We focus on building your business credit profile without personal guarantees whenever possible.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
+                    <div class="p-6 flex justify-between items-center cursor-pointer">
+                        <h3 class="text-xl font-semibold text-gray-900">What's the difference between credit stacking and a business loan?</h3>
+                        <i data-feather="chevron-down" class="text-blue-600"></i>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 hidden">
+                        <p class="text-gray-600">
+                            Unlike a lump-sum loan, credit stacking gives you multiple revolving credit lines that you can use as needed. This provides continuous access to capital rather than a one-time infusion, typically with better terms and no collateral requirements.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
+                    <div class="p-6 flex justify-between items-center cursor-pointer">
+                        <h3 class="text-xl font-semibold text-gray-900">Can startups qualify for credit stacking?</h3>
+                        <i data-feather="chevron-down" class="text-blue-600"></i>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 hidden">
+                        <p class="text-gray-600">
+                            <strong>Absolutely!</strong> Our Startup Launch Program handles everything from business formation to first funding. We'll establish your EIN, business bank account, vendor credit lines, and initial credit cards - giving you the foundation to grow properly from day one.
+                        </p>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+<section class="py-20 bg-white" id="testimonials">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Client Success Stories</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Hear from businesses that have transformed their funding strategy with CreditStack Pro.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm card-hover transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="http://static.photos/people/200x200/1" alt="Client 1" class="h-16 w-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Michael R.</h4>
+                            <p class="text-gray-500 text-sm">Manufacturing</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "CreditStack Pro helped us establish $500,000 in business credit across 8 accounts in just 90 days. Their stacking strategy was a game-changer for our expansion plans."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                    </div>
+</div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm card-hover transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="http://static.photos/people/200x200/2" alt="Client 2" class="h-16 w-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Sarah J.</h4>
+                            <p class="text-gray-500 text-sm">Retail</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "We went from no business credit to $300,000 in available credit lines with net-30 terms. This transformed our cash flow management completely."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <div class="relative w-5 h-5">
+                            <i data-feather="star" class="h-5 w-5 absolute fill-current"></i>
+                            <i data-feather="star" class="h-5 w-5 absolute fill-none stroke-current" style="clip-path: inset(0 50% 0 0);"></i>
+                        </div>
+                    </div>
+</div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm card-hover transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="http://static.photos/people/200x200/3" alt="Client 3" class="h-16 w-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">David T.</h4>
+                            <p class="text-gray-500 text-sm">Tech Startup</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "The credit stacking approach allowed us to access $750K in business credit without personal guarantees. This preserved our personal assets while growing the business."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm card-hover transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="http://static.photos/people/200x200/4" alt="Client 4" class="h-16 w-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Lisa M.</h4>
+                            <p class="text-gray-500 text-sm">Consulting</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "Within 6 months, our business credit score went from non-existent to 85. We now qualify for premium credit cards and better loan terms."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 stroke-current fill-none"></i>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm card-hover transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="http://static.photos/people/200x200/5" alt="Client 5" class="h-16 w-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">James K.</h4>
+                            <p class="text-gray-500 text-sm">Construction</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "The vendor credit lines we established through CreditStack Pro let us buy materials without upfront payments, improving our project cash flow by 40%."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm card-hover transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="http://static.photos/people/200x200/6" alt="Client 6" class="h-16 w-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Elena S.</h4>
+                            <p class="text-gray-500 text-sm">E-commerce</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "We stacked 12 different business credit accounts totaling $120K in buying power. This funded our inventory purchases during peak season without loans."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                        <i data-feather="star" class="h-5 w-5 fill-current"></i>
+                         <i data-feather="star" class="h-5 w-5 fill-current"></i>
+
+
+                    </div>
+                </div>
+</div>
+        </div>
+    </section>
+    <!-- Credit Building Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Credit Building For Startups & Businesses</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Even if your credit score is 600+, we can help you build it to 700+ in 30-90 days
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="bar-chart-2" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Credit Analysis</h3>
+                    <p class="text-gray-600 text-center">
+                        We identify key factors impacting your score and create a personalized action plan.
+                    </p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="credit-card" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Tradeline Strategy</h3>
+                    <p class="text-gray-600 text-center">
+                        We help establish positive tradelines to quickly boost your business credit profile.
+                    </p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md card-hover transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="check-circle" class="h-8 w-8 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-3">Fast Results</h3>
+                    <p class="text-gray-600 text-center">
+                        Most clients see 50-100+ point improvements in their business credit scores within 90 days.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section --> 
+    <script>
+        // This will be called when the page loads to initialize feather icons
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+        });
+    </script>
+<section class="gradient-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Stack Your Business Credit?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+                Our credit experts will help you combine multiple funding sources to maximize your business capital.
+            </p>
+            <button onclick="openFundingModal()" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-md font-bold text-lg transition duration-300 transform hover:scale-105">
+                <div class="flex items-center">
+                    Apply Now - Get Funded Fast
+                    <i data-feather="arrow-right" class="ml-2 h-5 w-5"></i>
+                </div>
+            </button>
+</div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold gradient-text mb-6">Growthline Partners</h3>
+                        <p class="text-gray-400 mb-6">
+                        Helping businesses maximize their funding potential through strategic credit stacking partnerships.
+</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="process.html" class="text-gray-400 hover:text-white transition">Process</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact Us</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+</ul>
+</div>
+<div>
+                    <h4 class="text-lg font-semibold mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition">Benefits credit stacking</a></li>
+<li><a href="#testimonials-grid" class="text-gray-400 hover:text-white transition">Comparing Loans</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition">Success Stories</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition">Q&A</a></li>
+                    </ul>
+</div>
+<div>
+                    <h4 class="text-lg font-semibold mb-6">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-gray-400">
+                            <i data-feather="mail" class="mr-3 h-5 w-5"></i> info@growthlinepartners.com
+</li>
+                        <li class="flex items-center text-gray-400">
+                            <i data-feather="phone" class="mr-3 h-5 w-5"></i> (888) 555-1234
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i data-feather="map-pin" class="mr-3 h-5 w-5"></i> 123 Business Ave, Suite 100<br>New York, NY 10001
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0 text-sm">© 2025 Growthline Partners. All rights reserved.</p>
+<div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Licensing</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Funding Application Modal -->
+    <!-- Enhanced Funding Modal -->
+    <div id="fundingModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900">Get Funded Fast</h3>
+                    <button onclick="closeFundingModal()" class="text-gray-400 hover:text-gray-500">
+                        <i data-feather="x"></i>
+                    </button>
+                </div>
+                
+                <form class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- Personal Information -->
+                        <div class="space-y-6">
+                            <h4 class="text-lg font-semibold text-gray-900 border-b pb-2">Personal Information</h4>
+                            <div>
+                                <label for="fullName" class="block text-sm font-medium text-gray-700 mb-1">Full Name*</label>
+                                <input type="text" id="fullName" name="fullName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email*</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number*</label>
+                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                        </div>
+
+                        <!-- Business Information -->
+                        <div class="space-y-6">
+                            <h4 class="text-lg font-semibold text-gray-900 border-b pb-2">Business Information</h4>
+                            <div>
+                                <label for="businessName" class="block text-sm font-medium text-gray-700 mb-1">Business Name*</label>
+                                <input type="text" id="businessName" name="businessName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="businessAge" class="block text-sm font-medium text-gray-700 mb-1">Business Age*</label>
+                                <select id="businessAge" name="businessAge" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                    <option value="">Select</option>
+                                    <option value="startup">Startup</option>
+                                    <option value="1-3">6 Months-3 years</option>
+                                    <option value="3-5">3-5 years</option>
+                                    <option value="5+">5+ years</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Financial Information -->
+                    <div class="space-y-6">
+                        <h4 class="text-lg font-semibold text-gray-900 border-b pb-2">Financial Information</h4>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="creditScore" class="block text-sm font-medium text-gray-700 mb-1">Personal Credit Score*</label>
+                                <select id="creditScore" name="creditScore" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                    <option value="">Select range</option>
+                                    <option value="300-579">300-579 (Poor)</option>
+                                    <option value="580-669">580-669 (Fair)</option>
+                                    <option value="670-739">670-739 (Good)</option>
+                                    <option value="740-799">740-799 (Very Good)</option>
+                                    <option value="800-850">800-850 (Excellent)</option>
+                                    <option value="unknown">I don't know</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="businessRevenue" class="block text-sm font-medium text-gray-700 mb-1">Monthly Business Revenue*</label>
+                                <select id="businessRevenue" name="businessRevenue" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                    <option value="">Select range</option>
+                                    <option value="0-5k">$0 - $5,000</option>
+                                    <option value="5k-10k">$5,000 - $10,000</option>
+                                    <option value="10k-25k">$10,000 - $25,000</option>
+                                    <option value="25k-50k">$25,000 - $50,000</option>
+                                    <option value="50k+">$50,000+</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Funding Needs -->
+                    <div class="space-y-6">
+                        <h4 class="text-lg font-semibold text-gray-900 border-b pb-2">Funding Needs</h4>
+                        
+                            </select>
+                        </div>
+                        <div>
+                            <label for="fundingPurpose" class="block text-sm font-medium text-gray-700 mb-1">How will you use the funds?*</label>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <label class="flex items-center space-x-3">
+                                    <input type="checkbox" name="fundingPurpose" value="inventory" class="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                                    <span class="text-gray-700">Inventory</span>
+                                </label>
+                                <label class="flex items-center space-x-3">
+                                    <input type="checkbox" name="fundingPurpose" value="equipment" class="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                                    <span class="text-gray-700">Equipment</span>
+                                </label>
+                                <label class="flex items-center space-x-3">
+                                    <input type="checkbox" name="fundingPurpose" value="expansion" class="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                                    <span class="text-gray-700">Business Expansion</span>
+                                </label>
+                                <label class="flex items-center space-x-3">
+                                    <input type="checkbox" name="fundingPurpose" value="marketing" class="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                                    <span class="text-gray-700">Marketing</span>
+                                </label>
+                                <label class="flex items-center space-x-3">
+                                    <input type="checkbox" name="fundingPurpose" value="working-capital" class="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                                    <span class="text-gray-700">Working Capital</span>
+                                </label>
+                                <label class="flex items-center space-x-3">
+                                    <input type="checkbox" name="fundingPurpose" value="other" class="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                                    <span class="text-gray-700">Other</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="additionalInfo" class="block text-sm font-medium text-gray-700 mb-1">Additional Information</label>
+                            <textarea id="additionalInfo" name="additionalInfo" rows="3" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Tell us more about your business and funding needs"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="pt-4">
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-lg transition duration-300 transform  text-lg">
+                            Submit Application - Get Funded Fast
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script>
+        feather.replace();
+        function openFundingModal() {
+            document.getElementById('fundingModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeFundingModal() {
+            document.getElementById('fundingModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+        // Add event listeners to all Apply Now buttons
+        document.querySelectorAll('#applyNowButton').forEach(button => {
+            button.addEventListener('click', openFundingModal);
+        });
+// Show/hide revenue field based on business type
+        document.querySelectorAll('input[name="businessType"]').forEach(radio => {
+            radio.addEventListener('change', function() {
+                document.getElementById('revenueField').classList.toggle('hidden', this.value === 'startup');
+                if (this.value === 'startup') {
+                    document.getElementById('annualRevenue').required = false;
+                } else {
+                    document.getElementById('annualRevenue').required = true;
+                }
+            });
+        });
+        // Close modal when clicking outside
+        document.getElementById('fundingModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeFundingModal();
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize modal functionality
+            feather.replace();
+// Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                feather.replace();
+            });
+            // FAQ accordion functionality
+            document.querySelectorAll('.bg-white.rounded-xl.shadow-md.overflow-hidden.mb-4').forEach(faq => {
+                const question = faq.querySelector('.cursor-pointer');
+                const answer = faq.querySelector('.hidden');
+                
+                question.addEventListener('click', () => {
+                    const icon = question.querySelector('i');
+                    answer.classList.toggle('hidden');
+                    icon.classList.toggle('rotate-180');
+                    
+                    // Close other open FAQs
+                    document.querySelectorAll('.bg-white.rounded-xl.shadow-md.overflow-hidden.mb-4').forEach(otherFaq => {
+                        if (otherFaq !== faq) {
+                            otherFaq.querySelector('.hidden').classList.add('hidden');
+                            otherFaq.querySelector('i').classList.remove('rotate-180');
+                        }
+                    });
+                });
+            });
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
